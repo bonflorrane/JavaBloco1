@@ -2,20 +2,17 @@ package Heranca;
 
 public class Preguica extends Animais {
 	
-	private boolean subir=true;
-	
-	void acao()	
-	{
-		System.out.println("Preguiça subindo em árvore");
-	}
+	private String subir;
 
-	public boolean isSubir() {
+	public String getSubir() {
 		return subir;
 	}
 
-	public void setSubir(boolean subir) {
+	public void setSubir(String subir) {
 		this.subir = subir;
 	}
 	
 
+	
+	
 }
