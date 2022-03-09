@@ -13,7 +13,11 @@ public class Cachorro extends Animais {
 	public void setCorrer(String correr) {
 		this.correr = correr;
 	}
-	
+	@Override
+	public void EmitirSom()
+	{
+		System.out.println("Latindo");
+	}
 	
 	
 	

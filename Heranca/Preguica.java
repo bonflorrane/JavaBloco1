@@ -11,7 +11,11 @@ public class Preguica extends Animais {
 	public void setSubir(String subir) {
 		this.subir = subir;
 	}
-	
+	@Override
+	public void EmitirSom()
+	{
+		System.out.println("AaAaAA");
+	}
 
 	
 	

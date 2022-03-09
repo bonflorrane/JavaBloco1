@@ -11,7 +11,11 @@ private String correr;
 	public void setCorrer(String correr) {
 		this.correr = correr;
 	}
-	
+	@Override
+	public void EmitirSom()
+	{
+		System.out.println("Irim");
+	}
 
 
 }
