@@ -41,7 +41,7 @@ public class EstoqueExercicio03 {
 	
 	public String toString()//para retornar os valores dos atributos
 	{
-		return this.cor+this.tamanho+this.quantidade;
+		return "Cor: "+this.cor+" Tamanho: "+this.tamanho+" Quantidade: "+this.quantidade;
 	}
 
 	
